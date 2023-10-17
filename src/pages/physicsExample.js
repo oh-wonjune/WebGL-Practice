@@ -66,7 +66,7 @@ export default function Template() {
       ttfLoader.load('/assets/Roboto-Bold.ttf', (json) => {
         font = fontLoader.parse(json);
         // name
-        const nameGeometry = new TextGeometry('Jack', {
+        const nameGeometry = new TextGeometry('Wonjune', {
           height: 0.05,
           size: 0.1,
           font: font,
